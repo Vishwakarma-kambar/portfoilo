@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/quick-find",
+  base: "/portfolio",
   test: {
     environment: "jsdom",
     setupFiles: ["./src/test-setup.ts"],
