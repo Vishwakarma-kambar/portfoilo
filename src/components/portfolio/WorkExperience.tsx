@@ -15,9 +15,9 @@ const experiences = [
       "Built and managed CMS-driven and static pages",
       "Developed and customized WordPress themes to meet business requirements",
       "Created custom plugins to extend site functionality",
-      "Worked with the SEO team to implement Technical SEO best practices"
-    ]
-  }
+      "Worked with the SEO team to implement Technical SEO best practices",
+    ],
+  },
 ];
 
 const WorkExperience = () => {
@@ -29,17 +29,23 @@ const WorkExperience = () => {
             Work <span className="text-gradient">Experience</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Professional journey building scalable web applications and managing content systems
+            Professional journey building scalable web applications and managing
+            content systems
           </p>
         </div>
 
         <div className="space-y-8">
           {experiences.map((exp, index) => (
-            <Card key={index} className="shadow-card hover-glow transition-smooth animate-slide-in-left">
+            <Card
+              key={index}
+              className="shadow-card hover-glow transition-smooth animate-slide-in-left"
+            >
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div>
-                    <CardTitle className="text-2xl text-gradient">{exp.company}</CardTitle>
+                    <CardTitle className="text-2xl text-gradient">
+                      {exp.company}
+                    </CardTitle>
                     <div className="flex items-center gap-4 text-muted-foreground mt-2">
                       <div className="flex items-center gap-1">
                         <Calendar className="w-4 h-4" />
@@ -65,7 +71,9 @@ const WorkExperience = () => {
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground">{achievement}</span>
+                      <span className="text-muted-foreground">
+                        {achievement}
+                      </span>
                     </li>
                   ))}
                 </ul>
