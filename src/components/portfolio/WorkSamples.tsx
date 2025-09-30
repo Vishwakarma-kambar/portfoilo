@@ -6,49 +6,108 @@ import { ExternalLink, Code, Palette, Wrench } from "lucide-react";
 const workSamples = {
   webflow: [
     {
-      title: "Automation Tools Integration",
-      description:
-        "Used Clay automation tool to create personalized landing pages in Webflow. By providing a LinkedIn URL, generates an entire page using Clay × Webflow × Make integration.",
-      technologies: ["Webflow", "Clay", "Make", "JavaScript"],
-      category: "Automation",
-    },
-    {
-      title: "Corporate Website",
+      title: "CodeWalnut Website",
       description:
         "Created company websites with custom JavaScript to extend CMS functionality and add interactive elements for better user engagement.",
-      technologies: ["Webflow", "Custom JavaScript", "CMS"],
+      technologies: [
+        "WebFlow",
+        "Custom JavaScript",
+        "CMS",
+        "Animations",
+        "FinSweet Attributes",
+        "FinSweet Class Naming Conventions",
+        "SEO",
+        "Google Search Console",
+        "Google Analytics",
+        "Clarity",
+      ],
       category: "Corporate",
       url: "https://www.codewalnut.com/",
     },
     {
-      title: "Design System Implementation",
+      title: "LeadWalnut Website",
       description:
-        "Created and maintained a comprehensive design system for consistent UI/UX across multiple projects and templates.",
-      technologies: ["Webflow", "Design System", "UI/UX"],
-      category: "Design System",
+        "Created company websites with custom JavaScript to extend CMS functionality and add interactive elements for better user engagement.",
+      technologies: [
+        "WebFlow",
+        "Custom JavaScript",
+        "CMS",
+        "Animations",
+        "FinSweet Attributes",
+        "FinSweet Class Naming Conventions",
+        "SEO",
+        "Google Search Console",
+        "Google Analytics",
+        "Clarity",
+      ],
+      category: "Corporate",
+      url: "https://www.leadwalnut.com/",
+    },
+    {
+      title: "NetWork Poppiens Website",
+      description:
+        "Given Tech support for new Feature and content administration",
+      technologies: [
+        "WebFlow",
+        "CMS",
+        "FinSweet Attributes",
+        "FinSweet Class Naming Conventions",
+      ],
+      category: "Corporate",
+      url: "https://www.leadwalnut.com/",
+    },
+    {
+      title: "SickKick Website",
+      description: "Given Tech support for Advance Functionality",
+      technologies: ["WebFlow", "CMS", "Custom Javascript"],
+      category: "Music  ",
+      url: "https://www.leadwalnut.com/",
     },
   ],
   wordpress: [
     {
-      title: "Custom Theme Development",
+      title: "Coacharya Website",
       description:
-        "Developed and customized WordPress themes to meet specific business requirements with focus on performance and SEO.",
-      technologies: ["WordPress", "PHP", "CSS", "JavaScript"],
-      category: "Theme Development",
+        "Migrated to different theme, optimized website performance & UI and managed content",
+      technologies: [
+        "WordPress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Divi",
+        "SEO",
+      ],
+      category: "Theme Migration",
     },
     {
       title: "Plugin Development",
       description:
         "Created custom plugins to extend site functionality and integrate third-party tools for better analytics and tracking.",
-      technologies: ["WordPress", "PHP", "MySQL", "APIs"],
+      technologies: [
+        "WordPress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQL",
+        "Plugin Development",
+      ],
       category: "Plugin Development",
     },
     {
-      title: "Page Builder Expertise",
+      title: "FirstEigen Website",
       description:
-        "Worked extensively with Divi, Elementor and Beaver Builder WordPress themes for rapid development and customization.",
-      technologies: ["Divi", "Elementor", "Beaver Builder", "WordPress"],
-      category: "Page Builders",
+        "Page revamp, Improved website performance, Content management, ",
+      technologies: [
+        "Beaver Builder",
+        "WordPress",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+      category: "Corporate",
     },
   ],
   react: [
@@ -81,23 +140,37 @@ const workSamples = {
       category: "Landing Page",
     },
   ],
+  Automation: [
+    {
+      title: "The LinkedIn URL to Landing Page Pipeline",
+      description:
+        "Used Clay automation tool to create personalized landing pages in Webflow. By providing a LinkedIn URL, generates an entire page using Clay × Webflow × Make integration.",
+      technologies: ["Webflow", "Clay", "Make", "JavaScript"],
+      category: "Automation",
+    },
+  ],
 };
 
 const categoryIcons = {
   webflow: <Palette className="w-6 h-6" />,
   wordpress: <Wrench className="w-6 h-6" />,
   react: <Code className="w-6 h-6" />,
+  Automation: <ExternalLink className="w-6 h-6" />,
 };
 
 const categoryTitles = {
   webflow: "Webflow Projects",
   wordpress: "WordPress Development",
   react: "React & Next.js Applications",
+  Automation: "Automation Projects",
 };
 
 const WorkSamples = () => {
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-background to-secondary/20">
+    <section
+      id="work-samples"
+      className="py-20 px-6 bg-gradient-to-b from-background to-secondary/20"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">

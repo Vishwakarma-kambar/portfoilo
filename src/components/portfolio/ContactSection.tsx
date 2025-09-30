@@ -3,6 +3,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Phone, MapPin, Download } from "lucide-react";
 
 const ContactSection = () => {
+  const resumeUrl =
+    "https://drive.google.com/file/d/1z4_VQsVsCoFS7OIYsrkBi7761rwee7d_/view?usp=sharing";
+
   return (
     <section className="py-20 px-6 bg-gradient-to-t from-secondary/30 to-background">
       <div className="max-w-4xl mx-auto text-center">
@@ -48,26 +51,24 @@ const ContactSection = () => {
               <CardTitle className="text-lg">Location</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">Madiwala, Bengaluru</p>
+              <p className="text-muted-foreground">
+                Kengeri Upanagar, Bengaluru
+              </p>
             </CardContent>
           </Card>
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <Button 
-            className="gradient-primary hover-glow transition-smooth"
-            onClick={() => window.open('mailto:vishwakarmaplc@gmail.com')}
+          <a
+            href={resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Vishwakarma_Kambar_Resume.pdf"
           >
-            <Mail className="w-4 h-4 mr-2" />
-            Send Email
-          </Button>
-          <Button 
-            variant="secondary" 
-            className="hover-glow transition-smooth"
-          >
-            <Download className="w-4 h-4 mr-2" />
-            Download Resume
-          </Button>
+            <Button className="gradient-primary hover-glow transition-smooth">
+              Download Resume
+            </Button>
+          </a>
         </div>
       </div>
     </section>
