@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   const resumeUrl =
-    "https://drive.google.com/file/d/1z4_VQsVsCoFS7OIYsrkBi7761rwee7d_/view?usp=sharing";
+    "https://drive.google.com/file/d/1BAr8NrS1DHqHPj_KD8IFaDizyBivp2rF/view?usp=drive_link";
 
   return (
     <section className="pb-10 lg:pb-20 px-6 bg-gradient-to-t from-secondary/30 to-background">
