@@ -8,7 +8,7 @@ const HeroSection = () => {
     "https://drive.google.com/file/d/1z4_VQsVsCoFS7OIYsrkBi7761rwee7d_/view?usp=sharing";
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-br from-background via-secondary/30 to-background">
+    <section className="relative min-h-scree px-6 py-10 lg:py-20 bg-gradient-to-br from-background via-secondary/30 to-background">
       <div className="absolute inset-0 gradient-accent opacity-50"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8 animate-fade-in">

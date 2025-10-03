@@ -167,6 +167,7 @@ const workSamples = {
         "Utilized the Clay automation tool to create personalized landing pages in Webflow. By providing a LinkedIn URL, the system generates an entire page through a Clay, Webflow, and Make integration.",
       technologies: ["Webflow", "Clay", "Make", "JavaScript"],
       category: "Automation",
+      url: "https://www.codewalnut.com/insights/linkedin-to-webflow-personalized-pages",
     },
   ],
 };
@@ -189,10 +190,10 @@ const WorkSamples = () => {
   return (
     <section
       id="work-samples"
-      className="py-20 px-6 bg-gradient-to-b from-background to-secondary/20"
+      className="pb-10 lg:pb-20 px-6 bg-gradient-to-b from-background to-secondary/20"
     >
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10 lg:gap-16">
+        <div className="text-center">
           <h2 className="text-4xl font-bold mb-4">
             Work <span className="text-gradient">Samples</span>
           </h2>
@@ -202,7 +203,7 @@ const WorkSamples = () => {
         </div>
 
         {Object.entries(workSamples).map(([category, projects]) => (
-          <div key={category} className="mb-20">
+          <div key={category} className="flex flex-col">
             <div className="flex items-center gap-3 mb-8">
               <div className="p-2 rounded-lg bg-primary/10 text-primary">
                 {categoryIcons[category as keyof typeof categoryIcons]}
