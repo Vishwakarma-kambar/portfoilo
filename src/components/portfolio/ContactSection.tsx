@@ -7,9 +7,9 @@ const ContactSection = () => {
     "https://drive.google.com/file/d/1z4_VQsVsCoFS7OIYsrkBi7761rwee7d_/view?usp=sharing";
 
   return (
-    <section className="py-20 px-6 bg-gradient-to-t from-secondary/30 to-background">
+    <section className="pb-10 lg:pb-20 px-6 bg-gradient-to-t from-secondary/30 to-background">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-16">
+        <div className="mb-10 lg:mb-16">
           <h2 className="text-4xl font-bold mb-4">
             Let's <span className="text-gradient">Connect</span>
           </h2>

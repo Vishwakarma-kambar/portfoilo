@@ -8,14 +8,14 @@ const workSamples = {
     {
       title: "CodeWalnut Website",
       description:
-        "Created company websites with custom JavaScript to extend CMS functionality and add interactive elements for better user engagement.",
+        "Developed a corporate website using custom JavaScript to enhance CMS functionality and create interactive elements for improved user engagement.",
       technologies: [
         "WebFlow",
         "Custom JavaScript",
         "CMS",
         "Animations",
-        "FinSweet Attributes",
-        "FinSweet Class Naming Conventions",
+        "Finsweet Attributes",
+        "Client-First naming convention",
         "SEO",
         "Google Search Console",
         "Google Analytics",
@@ -27,14 +27,14 @@ const workSamples = {
     {
       title: "LeadWalnut Website",
       description:
-        "Created company websites with custom JavaScript to extend CMS functionality and add interactive elements for better user engagement.",
+        "Built a company website with custom JavaScript, extending CMS capabilities and adding interactive features to boost user engagement.",
       technologies: [
         "WebFlow",
         "Custom JavaScript",
         "CMS",
         "Animations",
         "FinSweet Attributes",
-        "FinSweet Class Naming Conventions",
+        "Client-First naming convention",
         "SEO",
         "Google Search Console",
         "Google Analytics",
@@ -44,46 +44,78 @@ const workSamples = {
       url: "https://www.leadwalnut.com/",
     },
     {
-      title: "NetWork Poppiens Website",
+      title: "Network Poppins Website",
       description:
-        "Given Tech support for new Feature and content administration",
+        "Provided technical support for new feature implementation and content administration.",
       technologies: [
         "WebFlow",
         "CMS",
         "FinSweet Attributes",
-        "FinSweet Class Naming Conventions",
+        "Client-First naming convention",
       ],
       category: "Corporate",
-      url: "https://www.leadwalnut.com/",
+      url: "https://www.networkpoppins.com/",
     },
     {
-      title: "SickKick Website",
-      description: "Given Tech support for Advance Functionality",
-      technologies: ["WebFlow", "CMS", "Custom Javascript"],
-      category: "Music  ",
-      url: "https://www.leadwalnut.com/",
+      title: "Sickick Website",
+      description:
+        "Provided technical support for implementing advanced functionality.",
+      technologies: ["WebFlow", "Custom Javascript"],
+      category: "Music",
+      url: "https://www.sickick.com/",
     },
   ],
   wordpress: [
     {
       title: "Coacharya Website",
       description:
-        "Migrated to different theme, optimized website performance & UI and managed content",
+        "Migrated the website to a new theme, optimized performance and UI, and managed ongoing content.",
       technologies: [
         "WordPress",
+        "Divi",
         "PHP",
         "HTML",
         "CSS",
         "JavaScript",
-        "Divi",
         "SEO",
       ],
-      category: "Theme Migration",
+      category: "Global Leadership Development Firm",
+      url: "https://www.coacharya.com/",
+    },
+    {
+      title: "FirstEigen Website",
+      description:
+        "Revamped pages, improved website performance, and handled content management.",
+      technologies: [
+        "WordPress",
+        "Beaver Builder",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+      category: "Corporate",
+      url: "https://firsteigen.com/",
+    },
+    {
+      title: "eFax Website",
+      description: "Handled content administration tasks for the website.",
+      technologies: ["WordPress", "Custom Theme", "CMS", "SEO"],
+      category: "Telecommunications",
+      url: "https://www.efax.com/",
+    },
+    {
+      title: "Samarth Elder Care Website",
+      description:
+        "Managed content administration and implemented Advanced Custom Fields (ACF) customizations.",
+      technologies: ["WordPress", "Elementor", "CMS", "SEO", "ACF"],
+      category: "Elderly Care Services",
+      url: "https://care.samarth.community/",
     },
     {
       title: "Plugin Development",
       description:
-        "Created custom plugins to extend site functionality and integrate third-party tools for better analytics and tracking.",
+        "Developed custom plugins to extend site functionality and integrate third-party tools for enhanced analytics and tracking.",
       technologies: [
         "WordPress",
         "PHP",
@@ -95,58 +127,47 @@ const workSamples = {
       ],
       category: "Plugin Development",
     },
-    {
-      title: "FirstEigen Website",
-      description:
-        "Page revamp, Improved website performance, Content management, ",
-      technologies: [
-        "Beaver Builder",
-        "WordPress",
-        "PHP",
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
-      category: "Corporate",
-    },
   ],
   react: [
     {
+      title: "Aviation Landing Page",
+      description:
+        "Built a fully functional landing page for an aviation service using vanilla JavaScript, featuring custom form validation and interactive elements.",
+      technologies: ["HTML", "CSS", "Vanilla JavaScript", "Form Validation"],
+      category: "Landing Page",
+      url: "https://www.aeropt.in/",
+    },
+    {
       title: "NGO Project",
       description:
-        "Developed and implemented 4-5 responsive pages using React with component-based architecture for maintainability and clean UI.",
+        "Developed and implemented several responsive pages for an NGO using React, employing a component-based architecture for maintainability and a clean UI.",
       technologies: ["React.js", "CSS", "Responsive Design"],
       category: "Non-Profit",
+      url: "https://www.riseindiafoundation.in/",
     },
     {
       title: "B2B Project",
       description:
-        "Built multiple dynamic and static pages with Next.js, including unit test cases and multi-featured calendar system for scheduling.",
+        "Built dynamic and static pages for a B2B project using Next.js, which included writing unit test cases and implementing a multi-featured calendar system.",
       technologies: ["Next.js", "TypeScript", "Testing", "Calendar API"],
       category: "Business",
     },
     {
       title: "Scholarship Portal",
       description:
-        "Designed and developed responsive scholarship application portal with 12+ reusable form components and cross-browser compatibility.",
+        "Designed and developed a responsive scholarship application portal featuring over 12 reusable form components and ensuring cross-browser compatibility.",
       technologies: ["Next.js", "React Hook Form", "TypeScript"],
       category: "Education",
     },
-    {
-      title: "Aviation Landing Page",
-      description:
-        "Built a fully functional landing page for aviation service using vanilla JavaScript with custom form validation and interactive elements.",
-      technologies: ["HTML", "CSS", "Vanilla JavaScript", "Form Validation"],
-      category: "Landing Page",
-    },
   ],
-  Automation: [
+  automation: [
     {
       title: "The LinkedIn URL to Landing Page Pipeline",
       description:
-        "Used Clay automation tool to create personalized landing pages in Webflow. By providing a LinkedIn URL, generates an entire page using Clay × Webflow × Make integration.",
+        "Utilized the Clay automation tool to create personalized landing pages in Webflow. By providing a LinkedIn URL, the system generates an entire page through a Clay, Webflow, and Make integration.",
       technologies: ["Webflow", "Clay", "Make", "JavaScript"],
       category: "Automation",
+      url: "https://www.codewalnut.com/insights/linkedin-to-webflow-personalized-pages",
     },
   ],
 };
@@ -155,24 +176,24 @@ const categoryIcons = {
   webflow: <Palette className="w-6 h-6" />,
   wordpress: <Wrench className="w-6 h-6" />,
   react: <Code className="w-6 h-6" />,
-  Automation: <ExternalLink className="w-6 h-6" />,
+  automation: <ExternalLink className="w-6 h-6" />,
 };
 
 const categoryTitles = {
   webflow: "Webflow Projects",
   wordpress: "WordPress Development",
   react: "React & Next.js Applications",
-  Automation: "Automation Projects",
+  automation: "Automation Projects",
 };
 
 const WorkSamples = () => {
   return (
     <section
       id="work-samples"
-      className="py-20 px-6 bg-gradient-to-b from-background to-secondary/20"
+      className="pb-10 lg:pb-20 px-6 bg-gradient-to-b from-background to-secondary/20"
     >
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10 lg:gap-16">
+        <div className="text-center">
           <h2 className="text-4xl font-bold mb-4">
             Work <span className="text-gradient">Samples</span>
           </h2>
@@ -182,7 +203,7 @@ const WorkSamples = () => {
         </div>
 
         {Object.entries(workSamples).map(([category, projects]) => (
-          <div key={category} className="mb-20">
+          <div key={category} className="flex flex-col">
             <div className="flex items-center gap-3 mb-8">
               <div className="p-2 rounded-lg bg-primary/10 text-primary">
                 {categoryIcons[category as keyof typeof categoryIcons]}
@@ -208,13 +229,23 @@ const WorkSamples = () => {
                           {project.category}
                         </Badge>
                       </div>
-                      <Button
-                        size="sm"
-                        variant="ghost"
-                        className="opacity-0 group-hover:opacity-100 transition-smooth"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                      </Button>
+                      {project.url && (
+                        <Button
+                          size="sm"
+                          variant="ghost"
+                          asChild
+                          className="opacity-0 group-hover:opacity-100 transition-smooth"
+                        >
+                          <a
+                            href={project.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`View ${project.title} (opens in a new tab)`}
+                          >
+                            <ExternalLink className="w-4 h-4" />
+                          </a>
+                        </Button>
+                      )}
                     </div>
                   </CardHeader>
                   <CardContent>

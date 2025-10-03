@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-// Updated skills data structure - removed the level property
 const skills = {
   "Frontend Technologies": [
     "React JS",
@@ -30,9 +29,9 @@ const skills = {
 
 const SkillsSection = () => {
   return (
-    <section className="py-20 px-6">
+    <section className="py-10 lg:py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 lg:mb-16 ">
           <h2 className="text-4xl font-bold mb-4">
             Skills & <span className="text-gradient">Expertise</span>
           </h2>
@@ -41,7 +40,7 @@ const SkillsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
           {Object.entries(skills).map(([category, skillList]) => (
             <Card
               key={category}
