@@ -234,7 +234,7 @@ const WorkSamples = () => {
                           size="sm"
                           variant="ghost"
                           asChild
-                          className="opacity-0 group-hover:opacity-100 transition-smooth"
+                          className="opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-smooth"
                         >
                           <a
                             href={project.url}
