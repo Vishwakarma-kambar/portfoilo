@@ -1,11 +1,10 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { LinkedinIcon, Mail, MapPin, Phone } from "lucide-react";
 
 const HeroSection = () => {
   const resumeUrl =
-    "https://drive.google.com/file/d/1z4_VQsVsCoFS7OIYsrkBi7761rwee7d_/view?usp=sharing";
+    "https://drive.google.com/file/d/1BAr8NrS1DHqHPj_KD8IFaDizyBivp2rF/view?usp=drive_link";
 
   return (
     <section className="relative min-h-scree px-6 py-10 lg:py-20 bg-gradient-to-br from-background via-secondary/30 to-background">
@@ -39,15 +38,41 @@ const HeroSection = () => {
         <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
             <Phone className="w-4 h-4 text-primary" />
-            <span>8970139581</span>
+            <a
+              href="tel:+918970139581"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              8970139581
+            </a>
           </div>
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-primary" />
-            <span>vishwakarmaplc@gmail.com</span>
+            <a href="mailto:vishwakarmaplc@gmail.com" rel="noopener noreferrer">
+              vishwakarmaplc@gmail.com
+            </a>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-primary" />
-            <span>Kengeri Upanagar, Bengaluru</span>
+            <a
+              href="https://www.google.com/maps/place/Kengeri+Upanagar,+Bengaluru,+Karnataka/@12.9253036,77.5188233,15z/data=!3m1!4b1!4m5!3m4!1s0x3bae3f2f7f4f4d6d:0x8e8b8e8b8e8b8e8b!8m2!3d12.9253036!4d77.5273687"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kengeri Upanagar, Bengaluru
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
+          <div className="flex items-center gap-2">
+            <LinkedinIcon className="w-4 h-4 text-primary" />
+            <a
+              href="https://www.linkedin.com/in/vishwakarma-kambar/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.linkedin.com/in/vishwakarma-kambar/
+            </a>
           </div>
         </div>
 

@@ -19,43 +19,55 @@ const ContactSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          <Card className="shadow-card hover-glow transition-smooth animate-fade-in text-center">
-            <CardHeader>
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <Phone className="w-6 h-6 text-primary" />
-              </div>
-              <CardTitle className="text-lg">Phone</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground">8970139581</p>
-            </CardContent>
-          </Card>
+          <a href="tel:+918970139581" rel="noopener noreferrer">
+            <Card className="shadow-card hover-glow transition-smooth animate-fade-in text-center">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                  <Phone className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-lg">Phone</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">8970139581</p>
+              </CardContent>
+            </Card>
+          </a>
 
-          <Card className="shadow-card hover-glow transition-smooth animate-fade-in text-center">
-            <CardHeader>
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <Mail className="w-6 h-6 text-primary" />
-              </div>
-              <CardTitle className="text-lg">Email</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground">vishwakarmaplc@gmail.com</p>
-            </CardContent>
-          </Card>
+          <a href="mailto:vishwakarmaplc@gmail.com" rel="noopener noreferrer">
+            <Card className="shadow-card hover-glow transition-smooth animate-fade-in text-center">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                  <Mail className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-lg">Email</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  vishwakarmaplc@gmail.com
+                </p>
+              </CardContent>
+            </Card>
+          </a>
 
-          <Card className="shadow-card hover-glow transition-smooth animate-fade-in text-center">
-            <CardHeader>
-              <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <MapPin className="w-6 h-6 text-primary" />
-              </div>
-              <CardTitle className="text-lg">Location</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground">
-                Kengeri Upanagar, Bengaluru
-              </p>
-            </CardContent>
-          </Card>
+          <a
+            href="https://www.google.com/maps/place/Kengeri+Upanagar,+Bengaluru"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card className="shadow-card hover-glow transition-smooth animate-fade-in text-center">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                  <MapPin className="w-6 h-6 text-primary" />
+                </div>
+                <CardTitle className="text-lg">Location</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Kengeri Upanagar, Bengaluru
+                </p>
+              </CardContent>
+            </Card>
+          </a>
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
