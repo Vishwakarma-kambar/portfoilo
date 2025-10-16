@@ -4,7 +4,7 @@ import { LinkedinIcon, Mail, MapPin, Phone } from "lucide-react";
 
 const HeroSection = () => {
   const resumeUrl =
-    "https://drive.google.com/file/d/1eLXe84Nd-wzgHGMe7_vKLPBqB0LtPAHw/view?usp=sharing";
+    "https://drive.google.com/file/d/1pBKKlzCZwWySIbjnDVQV29b1Mju5JbnM/view?usp=drive_link";
 
   return (
     <section className="relative min-h-scree px-6 py-10 lg:py-20 bg-gradient-to-br from-background via-secondary/30 to-background">
